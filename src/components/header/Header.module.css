@@ -1,15 +1,60 @@
-.header{
-    display: flex;
-    align-items: center;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 84%;
+  padding: 20px 60px 20px 60px;
+}
+svg:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.link {
+  /* display: flex; */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
-.link{
-    text-decoration: none;
-    font-size: 20px;
+.link:hover {
+  color: rgb(118, 118, 118);
 }
-.header_left{
-    display: flex;
-    align-items: center;
+
+.header_left {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+}
+.header_mid {
+  display: flex;
+  gap: 140px;
+}
+.header_left_logo {
+  cursor: pointer;
+  width: 195px;
+  height: 74px;
+}
+/* .header_left_div {
+  display: flex;
+} */
+.header_right {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 15px;
+}
+.header_right_cart {
+  cursor: pointer;
+  height: 46px;
+  width: 46px;
+}
+.header_right_person {
+  cursor: pointer;
+  height: 36px;
+  width: 36px;
+  margin-left: 30px;
 }
 
 /* .header_left_div{
