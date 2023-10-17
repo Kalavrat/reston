@@ -7,34 +7,38 @@
   padding: 20px 60px 20px 60px;
 }
 svg:hover {
-  opacity: 0.8;
-  transition: 0.2s;
+  /* opacity: 0.8;
+  transition: 0.2s; */
 }
 .link {
   /* display: flex; */
   color: white;
   text-decoration: none;
   font-size: 20px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .link:hover {
   color: rgb(118, 118, 118);
+  /* opacity: 0.8; */
+  transition: 0.2s;
 }
 
 .header_left {
   display: flex;
   align-items: center;
-  /* width: 100%; */
 }
 .header_mid {
   display: flex;
-  gap: 140px;
+  justify-content: space-between;
+  width: 50%;
+  /* gap: 140px; */
 }
 .header_left_logo {
   cursor: pointer;
   width: 195px;
   height: 74px;
+  /* margin-right: 60px; */
 }
 /* .header_left_div {
   display: flex;

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import MainPage from "./MainPage";
+import MainPage from "./pages/MainPage/MainPage";
 import CatalogPage from "./pages/CatalogPage/CatalogPage.jsx";
 import ServicesPage from "./pages/ServicesPage/ServicesPage.jsx";
 import ContactsPage from "./pages/ContactsPage/ContactsPage.jsx";

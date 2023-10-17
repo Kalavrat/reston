@@ -21,8 +21,8 @@ export default function Header() {
   const MenuProps = {
     PaperProps: {
       style: {
-        maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-        width: 250,
+        // maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+        // width: 250,
       },
     },
   };
@@ -33,16 +33,18 @@ export default function Header() {
   return (
     <div className={style.header}>
       <div className={style.header_left}>
-        <HandySvg className={style.header_left_logo} src={logo} alt="" />
-
+        <Link to="/">
+          <HandySvg className={style.header_left_logo} src={logo} alt="" />
+        </Link>
         <FormControl
           sx={{
             m: 0,
             // width: "fit-content",
-            left: "60px",
+            // left: "60px",
             // position: "absolute",
+
             width: 150,
-            // ml: "60px",
+            ml: "60px",
           }}
         >
           <Select
