@@ -42,7 +42,6 @@ export default function Header() {
             // width: "fit-content",
             // left: "60px",
             // position: "absolute",
-
             width: 150,
             ml: "60px",
           }}
@@ -52,6 +51,7 @@ export default function Header() {
               bgcolor: "#5CCDFF",
               borderRadius: 10,
               // paddingX: "20px",
+              fontFamily: "Montserrat",
               height: 40,
             }}
             displayEmpty
