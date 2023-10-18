@@ -7,8 +7,8 @@
   padding: 20px 60px 20px 60px;
 }
 svg:hover {
-  /* opacity: 0.8;
-  transition: 0.2s; */
+  opacity: 0.8;
+  transition: 0.2s;
 }
 .link {
   /* display: flex; */
