@@ -1,5 +1,6 @@
 .main_head {
   background: url("../../media/bg_main.jpg");
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -20,4 +21,8 @@
 .main_head_logo {
   width: 840px;
   height: 394px;
+}
+.arrow_r,
+.arrow_l {
+  height: 20px;
 }
