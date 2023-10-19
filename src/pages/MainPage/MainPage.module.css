@@ -22,7 +22,67 @@
   width: 840px;
   height: 394px;
 }
+.main_best{
+  margin-top: 100px;
+}
+.main_best_titleDiv{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.main_best_lowerDiv{
+  margin-top: 50px;
+}
 .arrow_r,
 .arrow_l {
   height: 20px;
+}
+.main_best_img{
+  width: 100%;
+}
+.main_best_lowerDiv_desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_best_lowerDiv_desc_type{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.main_best_lowerDiv_desc_name{
+  font-size: 24px;
+  font-weight: 600;
+}
+.main_best_lowerDiv_desc_price{
+  font-size: 20px;
+  /* font-weight: 500; */
+}
+.main_category{
+  margin-top: 100px;
+  padding: 0px 100px 0px 100px;
+}
+.main_category_titleDiv{
+}
+.main_category_title{
+  /* text-align: center; */
+  font-size: 36px;
+  font-weight: 700;
+}
+.main_category_cont{
+  display: flex;
+  margin-top: 50px;
+}
+.main_category_cont_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.main_category_cont_card:not(:last-child){
+  margin-right: 60px;
+}
+.link{
+  margin-bottom: 20px;
 }
